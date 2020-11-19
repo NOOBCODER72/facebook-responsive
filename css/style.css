@@ -1,0 +1,364 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.clear::after{
+   content:'';
+   display: block;
+   clear: both;
+}
+.text-right{
+   text-align: right;
+}
+.text-left{
+   text-align: left;
+}
+.text-center{
+   text-align: center;
+}
+.left{
+   float: left;
+}
+.right{
+   float: right;
+}
+img{
+   max-width: 100%;
+}
+a{
+   text-decoration: none;
+}
+body,h1,h2,h3,h4,h5,h6,span,a,p{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.main-width{
+   width: 1200px;
+   margin: auto;
+}
+
+/*Default Css Start*/
+
+.header-area {
+	background: #3E5C9A;
+	padding: 12px 0;
+}
+.header-left{
+   width: 30%;
+}
+.header-logo {
+	position: relative;
+	top: 15px;
+	left: 0;
+}
+.header-right{
+   width: 70%;
+}
+.header-form form{
+   float: right;
+}
+.header-form form input {
+	display: block;
+	padding: 2px 3px;
+	border: 1px solid black;
+	
+	font-size: 12px;
+}
+
+.header-form form label {
+	color: #fff;
+	font-size: 14px;
+	display: block;
+	margin-bottom: 3px;
+}
+
+.third input[type="submit"] {
+	margin-top: 18px;
+	margin-left: 0px;
+	font-size: 13px;
+	color: white;
+	background: #4267b2;
+	border: 1px solid #29487d;
+	padding: 2px 5px;
+	font-family: arial;
+	cursor: pointer;
+	transition: .4s;
+}
+.third input[type="submit"]:hover{
+   background: #29487d;
+   border: 1px solid #2e4772;
+}
+
+.pass .account{
+text-decoration: none;
+font-size: 12px;
+color: #9cb4d8;
+transition: .4s;
+font-family: arial;
+}
+.pass .account:hover{
+   text-decoration: underline;
+}
+
+.header-area .first{}
+.header-area .pass{
+   margin-left: 10px;
+}
+.header-area .third{
+   margin-left: 10px;
+}
+
+/*sing Up Design*/
+
+.sing-up-area{
+   background: #DEE2EE;
+   padding: 30px 0;
+}
+.sing-up-left{
+   width: 69%;
+}
+.sing-text p{
+   
+      color: #0e385f;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 29px;
+      margin-top: 40px;
+      width: 450px;
+      word-spacing: -1px;
+      font-family: arial;
+  
+}
+.sing-image img {
+	margin-top: 20px;
+}
+.sing-up-right{
+   width: 31%;
+}
+
+.sing-up-text h1 {
+	font-size: 36px;
+	color: #333;
+	font-weight: 700;
+}
+.sing-up-text h4 {
+	font-size: 16px;
+	color: #333;
+	
+	margin-top: 10px;
+	font-weight: 500;
+}
+.sing-up-form {
+	margin-top: 18px;
+}
+.sing-up-form form{}
+.sing-up-form form input {
+	display: block;
+	width: 100%;
+	border: 1px solid #bdc7d8;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.sing-up-form form input:nth-child(1){
+   width: 50%;
+   float: left;
+}
+.sing-up-form form input:nth-child(2){
+   width: 48%;
+   float: right;
+}
+
+.date{}
+.date h3 {
+	color: #90949c;
+	margin-bottom: 4px;
+   margin-top: 20px;
+   font-size: 16px;
+}
+.date select {
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid #ccd0d5;
+	height: 30px;
+	font-size: 14px;
+	color: #333;
+	margin-right: -5px;
+}
+.date select option{}
+
+.gende{}
+.gender h3 {
+	color: #90949c;
+	margin-top: 12px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.gender input[type="radio"] {
+	margin-right: 6px;
+}
+.gender span{
+   color: #1d2129;
+   font-size: 18px;
+}
+.cookie p {
+	font-size: 11px;
+	width: 305px;
+	word-spacing: 1px;
+   margin-top: 30px;
+   color:#777;
+}
+.cookie a{
+   color:#9cb4d8;
+}
+
+.button a {
+	display: inline-block;
+	background: linear-gradient(#67ae55, #578843);
+	color: #fff;
+	min-width: 160px;
+	text-align: center;
+	padding: 7px 10px;
+	border-radius: 5px;
+	margin-top: 40px;
+	font-size: 13px;
+}
+
+.celeberaty p {
+	margin-top: 40px;
+	font-size: 13px;
+	color: #777;
+	font-weight: 600;
+}
+.celeberaty a{
+   color:#9cb4d8;
+}
+.footer-area{
+   background: #fff;
+   padding-bottom: 20px;
+   padding-top: 60px;
+}
+.first-footer{
+   border-bottom: 1px solid #ddd;
+}
+.first-footer a {
+	color: #8a8d91;
+	font-size: 12px;
+	margin-right: 5px;
+
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.first-footer a:hover{
+   text-decoration: underline;
+}
+
+.second-footer a {
+	color: #8a8d91;
+	font-size: 12px;
+	margin-right: 7px;
+
+	display: inline-block;
+	margin-top: 10px;
+}
+.second-footer a:hover{
+   text-decoration: underline;
+}
+
+.last-footer p {
+	color: #737373;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+
+
+@media all and (max-width: 1200px) {
+    .main-width {
+        
+        margin: auto;
+        width: 100%;
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+}
+@media all and (max-width: 965px) {
+    .sing-text p {
+        margin: auto;
+    }
+    .sing-up-left {
+        width: 100%;
+        text-align: center;
+    }
+    .sing-up-right {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media all and (max-width: 585px) {
+    .header-left {
+        width: 100%;
+    }
+    .left {
+        float: none;
+    }
+    .header-right {
+        width: 100%;
+    }
+    .header-form form {
+        float: none;
+    }
+    .header-area .first {
+        margin-top: 25px;
+        margin-bottom: 12px;
+    }
+    .header-form form input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 7px;
+    }
+    .header-area .pass {
+        margin-left: 0;
+    }
+    .header-area .third {
+        margin-left: 0;
+    }
+    .third input[type="submit"] {
+     
+        font-size: 17px;
+        padding: 5px 5px;
+      
+    }
+    .header-form form label {
+        color: #fff;
+        font-size: 15px;
+        display: block;
+        margin-bottom: 3px;
+    }
+    .sing-up-form form input:nth-child(2) {
+        width: 100%;
+       
+    }
+    .sing-up-form form input:nth-child(1) {
+        width: 100%;
+       
+    }
+    .button a {
+      
+        min-width: 100%;
+       
+        box-sizing: border-box;
+    }
+    .sing-text p {
+        
+        width: 100%;
+	}
+	.sing-up-text h1 {
+		font-size: 25px;
+		color: #333;
+		font-weight: 700;
+	}
+}

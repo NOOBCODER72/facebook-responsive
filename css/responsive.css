@@ -1,0 +1,83 @@
+@media all and (max-width: 1200px) {
+    .main-width {
+        
+        margin: auto;
+        width: 100%;
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+}
+@media all and (max-width: 965px) {
+    .sing-text p {
+        margin: auto;
+    }
+    .sing-up-left {
+        width: 100%;
+        text-align: center;
+    }
+    .sing-up-right {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media all and (max-width: 585px) {
+    .header-left {
+        width: 100%;
+    }
+    .left {
+        float: none;
+    }
+    .header-right {
+        width: 100%;
+    }
+    .header-form form {
+        float: none;
+    }
+    .header-area .first {
+        margin-top: 25px;
+        margin-bottom: 12px;
+    }
+    .header-form form input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 7px;
+    }
+    .header-area .pass {
+        margin-left: 0;
+    }
+    .header-area .third {
+        margin-left: 0;
+    }
+    .third input[type="submit"] {
+     
+        font-size: 17px;
+        padding: 5px 5px;
+      
+    }
+    .header-form form label {
+        color: #fff;
+        font-size: 15px;
+        display: block;
+        margin-bottom: 3px;
+    }
+    .sing-up-form form input:nth-child(2) {
+        width: 100%;
+       
+    }
+    .sing-up-form form input:nth-child(1) {
+        width: 100%;
+       
+    }
+    .button a {
+      
+        min-width: 100%;
+       
+        box-sizing: border-box;
+    }
+    .sing-text p {
+        
+        width: 100%;
+    }
+}
